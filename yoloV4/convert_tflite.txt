@@ -1,0 +1,2 @@
+python save_model.py --weights ./data/yolov4-tiny_final.weights --output ./checkpoints/yolov4-416 --input_size 416 --model yolov4 --framework tflite
+python convert_tflite.py --weights ./checkpoints/yolov4-tiny-416 --output ./checkpoints/yolov4-416.tflite
